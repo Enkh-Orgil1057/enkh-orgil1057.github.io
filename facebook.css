@@ -1,0 +1,59 @@
+.whitefont{
+    color: white;
+}
+.boldfont{
+    font-weight: bolder;
+}
+.font{
+    font-family: klavika, sans-serif;
+}
+.deepbluebackground{
+    background-color: #063970;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: #0062cb;
+    font-size: 90px;
+    font-weight: bolder;
+    font-family: klavika, sans-serif;
+}
+.padding{
+    padding: 15px;
+}
+
+.cellborder {
+    border: 2px solid #063970;
+}
+
+.border{
+    border: 2px solid #063970;
+    border-color: #063970;
+    border-collapse: collapse;
+}
+
+.tasarhaiBorder{
+    border: 2px dotted #063970;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: coral;
+    font-weight: bolder;
+}
+.removepadding{
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+.textright{
+    text-align: right;
+}
