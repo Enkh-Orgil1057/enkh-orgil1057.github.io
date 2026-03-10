@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    height: auto;
+    background-color: #FAF0F3;
+    opacity: 0.9;
+    margin: 30px auto;
+    padding: 20px;
+}
+.border{
+    border: 10px solid #CC6685;
+    border-radius: 20px;
+}
+
+body{
+    margin: 0;
+    background-image: url('img/cinnamoroll-with-mell-mell-doll-f4zrfwy0g87tdbea.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header{
+    display: flex;
+    min-height: 250px;
+    background-color: #E7CEE3;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.zurag{
+    width: auto;
+    height: 200px;
+    justify-self: flex-start; 
+    border-radius: 30%;
+}
+.font{
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+}
+.ner{
+    margin: 0;
+    font-size: 4em;
+    color: #191B24;
+}
+
