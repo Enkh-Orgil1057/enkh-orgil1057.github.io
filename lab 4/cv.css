@@ -9,11 +9,11 @@
     background-color: #FAF0F3;
     opacity: 0.9;
     margin: 30px auto;
-    padding: 20px;
+    padding: 20px 0;
 }
 .border{
-    border: 10px solid #CC6685;
-    border-radius: 20px;
+    border: 10px solid #ec93ae;
+    border-radius: 50px;
 }
 
 body{
@@ -24,26 +24,156 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.insideBorder{
+    border-bottom: 10px solid #ec93ae;
+    border-right: 0;
+    border-left: 0;
+    border-top:  10px solid #ec93ae;
+    border-style:dashed ;
+}
 .header{
+    margin: 0 0;
+    padding: 20px;
     display: flex;
     min-height: 250px;
     background-color: #E7CEE3;
     align-items: center;
-    padding: 20px;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 .zurag{
     width: auto;
     height: 200px;
     justify-self: flex-start; 
     border-radius: 30%;
+    margin-left: 30px;
 }
 .font{
     font-family: 'Comic Sans MS', Comic Sans, cursive;
 }
+.bosoo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+}
 .ner{
-    margin: 0;
+    margin: 0 0 0 30px;
     font-size: 4em;
     color: #191B24;
+    text-decoration: underline;
 }
+.mergejil{
+    margin: 0 0 0 50px;
+    font-size: 2em;
+    color:#191B24;
+    transition: 0.3s;
+}
+.mergejil:hover{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.garcig{
+    color: #191B24;
+    margin: 0 0 20px 20px;
+    font-size: 3em;
+}
+.footer{
+    display: flex;
+    padding: 2%;
+    background-color: #E7CEE3;
+    width: 100%;
+}
+.icon-text{
+    display: flex;
+    justify-content: flex-start;
+}
+.icon{
+    width: 35px; 
+    height: fit-content;
+    align-self: center;
+}
+.haraldaa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footerText{
+    color: #191B24;
+    font-size: 1.5em;
+    margin: 0 10px;
+    padding: 0;
+    transition: 0.3s ease;
+}
+.footerText:hover{
+    transform: translateY(-10px);
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+/*
+dund hesgt hereglesen
+*/
+.middle{
+    display: flex;
+    padding: 20px;
+    overflow: visible;
+}
+.middle-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+    border-style: dashed;
+    border-radius: 20px;
+    background-color: #ffeffc;
+    padding: 5px;
+    border-color:#ec93ae;
+    transition: 0.3s ease;
+}
+.middle-info:hover{
+    border-style: solid;
+    border-radius: 40px;
+    background-color: #f2fdfd;
+    padding: 10px;
+    border-color:#90c8f7;
+
+}
+.garcigDotood{
+    color: #191B24;
+    margin: 0 0 10px 10px;
+    font-size: 2em;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.middle-info:hover .garcigDotood{
+    font-size: 2.2em;
+    transform: translateX(-8px);
+}
+.garcig-jijig{
+    color: #191B24;
+    margin: 0 0 10px 10px;
+    font-size: 1.7em;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.middle-info:hover .garcig-jijig{
+    font-size: 2em;
+    transform: translateX(-8px);
+}
+.normalText{
+    color: #191B24;
+    margin: 5px 0 0 0;
+    font-size: 1.4em;
+    text-align: justify;
+    transition: 0.3s ease;
+}
+.middle-info:hover .normalText{
+    font-size: 1.5em;
+}
+ul{
+    margin-top: 0;
+    list-style-type:circle;
+}
+
+
 
