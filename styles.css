@@ -38,7 +38,8 @@
     display: flex;
     flex-direction: row;
 }
-.hidden-title{
+h1.hidden-title, 
+h2.hidden-title{
     display: none;
 }
 
