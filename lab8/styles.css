@@ -1,0 +1,25 @@
+.border{
+    border: solid 2px black;
+    padding: 3vh 5vh;
+    background-color: antiquewhite;
+}
+
+.border:first-of-type{
+    background-color: beige;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+.text-input{
+    width: 30vh;
+    height: 3vh;
+    font-size: 1em;
+}
+
+.button{
+    width: auto;
+    height: 3.7vh;
+    font-size: 1em;
+}
