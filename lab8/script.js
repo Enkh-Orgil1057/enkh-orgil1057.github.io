@@ -38,10 +38,10 @@ function das1(){
 
     if (pal_test == sum){
         document.getElementById("das1-result").innerHTML = "Мөн байна!";
-        document.getElementById("das1-result").setAttribute("style", "color: " + "green")
+        document.getElementById("das1-result").setAttribute("style", "color: green;")
     } else {
         document.getElementById("das1-result").innerHTML = "Биш байна!";
-        document.getElementById("das1-result").setAttribute("style", "color: " + "red")   
+        document.getElementById("das1-result").setAttribute("style", "color: red;")   
     }
 }
 
